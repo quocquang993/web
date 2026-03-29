@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Giày</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #111;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .price {
+            color: red;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 15px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SHOP GIÀY THỂ THAO</h1>
+</header>
+
+<nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Sản phẩm</a>
+    <a href="#">Liên hệ</a>
+</nav>
+
+<div class="container">
+
+    <div class="product">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.BEQRqYk5Zf5k-b18ItFxvwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Giày 1">
+        <h3>Giày Nike Air</h3>
+        <p class="price">1.500.000đ</p>
+        <button>Mua ngay</button>
+    </div>
+
+    <div class="product">
+        <img src="https://prod.aaw.com/media/catalog/product/3/5/35bb3e900fe93c65fe0405174403e791ec6a206461a05fde2336f15263ecb4cd.jpeg" alt="Giày 2">
+        <h3>Adidas Ultraboost</h3>
+        <p class="price">2.000.000đ</p>
+        <button>Mua ngay</button>
+    </div>
+
+    <div class="product">
+        <img src="https://th.bing.com/th/id/R.e1e232eeb2099c7059fbcb1af8f16b92?rik=24DP7uVVD6aR1Q&pid=ImgRaw&r=0" alt="Giày 3">
+        <h3>Puma Sport</h3>
+        <p class="price">1.200.000đ</p>
+        <button>Mua ngay</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Shop Giày - Liên hệ: 0123456789</p>
+</footer>
+
+</body>
+</html>
